@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naorem Nivash Singh | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eef3f8;
+color:#333;
+}
+
+header{
+height:100vh;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+display:flex;
+align-items:center;
+justify-content:center;
+color:#fff;
+padding:20px;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+max-width:1200px;
+width:100%;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+flex:1;
+}
+
+.hero-text h1{
+font-size:55px;
+margin-bottom:10px;
+}
+
+.hero-text h2{
+font-size:25px;
+font-weight:300;
+color:#ffd54f;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 35px;
+background:#ffd54f;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:40px;
+transition:.4s;
+}
+
+.btn:hover{
+background:#fff;
+}
+
+.hero-image{
+flex:1;
+text-align:center;
+}
+
+.hero-image img{
+width:340px;
+height:340px;
+border-radius:50%;
+object-fit:cover;
+border:8px solid white;
+box-shadow:0 15px 40px rgba(0,0,0,.4);
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:35px;
+margin-bottom:40px;
+color:#203a43;
+}
+
+.about{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:#fff;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0f2027;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.skill{
+background:#203a43;
+color:white;
+padding:12px 20px;
+border-radius:30px;
+}
+
+footer{
+background:#203a43;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero-text h1{
+font-size:40px;
+}
+
+.hero-image img{
+width:250px;
+height:250px;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>Naorem Nivash Singh</h1>
+
+<h2>ADCA Student</h2>
+
+<p>
+I am an enthusiastic ADCA student at Max Computer Training Centre.
+I enjoy learning web design, computer applications, and developing
+new technical skills to build my future in the IT industry.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="profile.jpg" alt="Naorem Nivash Singh">
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<div class="card">
+
+<h3>Personal Information</h3>
+
+<table>
+
+<tr>
+<td><b>Name</b></td>
+<td>Naorem Nivash Singh</td>
+</tr>
+
+<tr>
+<td><b>Date of Birth</b></td>
+<td>04-03-2004</td>
+</tr>
+
+<tr>
+<td><b>Course</b></td>
+<td>ADCA</td>
+</tr>
+
+<tr>
+<td><b>Institute</b></td>
+<td>Max Computer Training Centre</td>
+</tr>
+
+<tr>
+<td><b>Address</b></td>
+<td>Charangpat Maning Leikai</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h3>Career Objective</h3>
+
+<p>
+To work in a challenging environment where I can utilize my
+computer knowledge, continuously improve my technical skills,
+and contribute positively to the growth of the organization.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">My Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+
+<div class="skill">CSS</div>
+
+<div class="skill">MS Word</div>
+
+<div class="skill">MS Excel</div>
+
+<div class="skill">PowerPoint</div>
+
+<div class="skill">Computer Basics</div>
+
+<div class="skill">Internet</div>
+
+<div class="skill">Typing</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="card">
+
+<p><b>📞 Phone:</b> 7423989827</p><br>
+
+<p><b>📧 Email:</b> naoremnivashsingh@gmail.com</p><br>
+
+<p><b>📍 Address:</b> Charangpat Maning Leikai</p><br>
+
+<a class="btn" href="mailto:naoremnivashsingh@gmail.com">Send Email</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Naorem Nivash Singh</h3>
+
+<p>ADCA Student | Max Computer Training Centre</p>
+
+<p>© 2026 All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
